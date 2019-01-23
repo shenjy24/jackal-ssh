@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <constant name="struts.devMode" value="true"/>
+
+    <!--该配置声明，如果找不到action，则到spring中去找相应的bean-->
+    <constant name="struts.objectFactory" value="spring"/>
+
+    <!-- 请求参数的编码方式 -->
+    <constant name="struts.i18n.encoding" value="UTF-8"/>
+
+    <!-- struts2漏洞屏蔽-->
+    <constant name="struts.enable.DynamicMethodInvocation" value="false"/>
+
+
+</struts>
+
