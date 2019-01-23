@@ -1,4 +1,4 @@
-package com.jonas.action;
+package com.jonas.config;
 
 import org.hibernate.SessionFactory;
 import org.springframework.orm.hibernate4.support.HibernateDaoSupport;

@@ -1,6 +1,6 @@
 package com.jonas.dao.impl;
 
-import com.jonas.action.BaseDao;
+import com.jonas.config.BaseDao;
 import com.jonas.dao.UserDao;
 import com.jonas.entity.User;
 import org.springframework.stereotype.Repository;
